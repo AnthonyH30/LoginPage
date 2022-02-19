@@ -12,6 +12,7 @@
     align-items: center;
     height: 100vh;
     background-color: black;
+    flex-direction: row;
 }
 
 .image{
@@ -82,3 +83,17 @@
     background-color: rgb(41, 41, 41);
     transition: ease-in 0.2s;
 }
+
+@media (max-width: 768px) {
+
+    .right-side{
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image{
+        display: none;
+    }
+  }
