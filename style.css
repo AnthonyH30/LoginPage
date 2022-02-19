@@ -1,0 +1,84 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    pad: 0% 10%;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.image{
+    width: 45vw;
+}
+
+.image img{
+ width:80%;
+}
+
+.right-side{
+    display: flex;
+    width: 35vw;
+}
+
+.login-area{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: hsl(240, 6%, 10%);
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.login-area h2{
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+.login-area span{
+    color: rgb(44, 44, 255);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    background-color: rgb(34, 33, 33);
+    outline: none;
+}
+
+.form input:nth-child(1){
+    padding-left: 20px;
+}
+
+.form input:nth-child(2){
+    padding-left: 20px;
+}
+
+.form .submit{
+    width: 130px;
+    cursor: pointer;
+}
+
+.form .submit:hover{
+    background-color: rgb(41, 41, 41);
+    transition: ease-in 0.2s;
+}
